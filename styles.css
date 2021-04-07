@@ -1,0 +1,77 @@
+*{
+	font-family: 'Fredoka One', cursive;
+}
+
+body{
+	background-color: #171717;
+}
+
+.flex-container{
+	border-radius: 10px;
+	max-width: 700px;
+	margin: 30px;
+	background-color: #626060;
+	min-width: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.form{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: auto;
+	min-width: 100px;
+	max-width: 400px;
+}
+
+.form_input{
+	margin: 10px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #3BA36E;
+	width: 100%;
+}
+
+.form_input:focus {
+	background: linear-gradient(to bottom, transparent, #444);
+	outline: none;
+}
+
+.form_input::placeholder{
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.form input[type="submit"]{
+	color: #fff;
+	background-color: #3BA36E;
+	padding: 10px;
+}
+
+.form-img{
+	flex: 1 1 200px;
+	min-width: 100px;
+	max-width: 300px;
+}
+
+.img-container{
+	margin: 20px;
+	background-color: #D8D5D5;
+	max-height: 250px;
+	border-radius: 30%;
+}
+
+.img-container img{
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+.form textarea{
+	min-height: 100px;
+	resize: none;
+}
+
+.form input[type="submit"]:active{
+	background-color: #00A350;
+}
